@@ -1,0 +1,414 @@
+GZipDecodingStreamFilter.lo: GZipDecodingStreamFilter.cc \
+  GZipDecodingStreamFilter.h StreamFilter.h common.h ../config.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdint.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__config \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/features.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/cdefs.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/android/api-level.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/android/versioning.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/stdint.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/stdint.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/wchar_limits.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stddef.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/stddef.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/__stddef_max_align_t.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__nullptr \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/inttypes.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/local/include/inttypes.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/inttypes.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/inttypes.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/types.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/types.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/types.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/types.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/int-ll64.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/bitsperlong.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/bitsperlong.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/posix_types.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/stddef.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/compiler_types.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/compiler.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/posix_types.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/posix_types.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/pthread_types.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/string \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/string_view \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__string \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/algorithm \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/initializer_list \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstddef \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/type_traits \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstring \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/string.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/string.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/xlocale.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/strcasecmp.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/strings.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/android/legacy_strings_inlines.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/utility \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__tuple \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstdint \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__debug \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/memory \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/typeinfo \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/exception \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstdlib \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdlib.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/local/include/stdlib.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/stdlib.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/alloca.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/wait.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/wait.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/malloc.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdio.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/local/include/stdio.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/stdio.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/stdarg.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/seek_constants.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/new \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/limits \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__undef_macros \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/iterator \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/iosfwd \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/wchar.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/local/include/wchar.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/wchar.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/time.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/time.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/time.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/select.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/signal.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/sigcontext.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/signal_types.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/limits.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/limits.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/limits.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/float.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/float.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/limits.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/posix_limits.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/signal.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/signal.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/signal.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/signal-defs.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/siginfo.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/timespec.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/ucontext.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/user.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/android/legacy_signal_inlines.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/mbstate_t.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/wctype.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__functional_base \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/tuple \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdexcept \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cassert \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/assert.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/atomic \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstdio \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cwchar \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cwctype \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cctype \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/ctype.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/ctype.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/wctype.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/local/include/wctype.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/wctype.h \
+  /data/data/io.neoterm/files/home/aria2//usr/local/include/zlib.h \
+  /data/data/io.neoterm/files/home/aria2//usr/local/include/zconf.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/unistd.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/fcntl.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/getopt.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/ioctl.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/lockf.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/sysconf.h \
+  a2functional.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/functional \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/chrono \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/ctime \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/ratio \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/climits \
+  A2STR.h fmt.h \
+  /data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstdarg \
+  DlAbortEx.h RecoverableException.h Exception.h error_code.h
+
+GZipDecodingStreamFilter.h:
+
+StreamFilter.h:
+
+common.h:
+
+../config.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdint.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__config:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/features.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/android/api-level.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/android/versioning.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/stdint.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/stdint.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/wchar_limits.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stddef.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/stddef.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/__stddef_max_align_t.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__nullptr:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/inttypes.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/local/include/inttypes.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/inttypes.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/inttypes.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/types.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/types.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/types.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/types.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/int-ll64.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/bitsperlong.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/stddef.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/compiler_types.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/compiler.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/posix_types.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/pthread_types.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/string:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/string_view:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__string:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/algorithm:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/initializer_list:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstddef:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/type_traits:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstring:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/string.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/string.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/xlocale.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/strcasecmp.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/strings.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/android/legacy_strings_inlines.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/utility:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__tuple:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstdint:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__debug:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/memory:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/typeinfo:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/exception:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstdlib:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdlib.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/local/include/stdlib.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/stdlib.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/alloca.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/wait.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/wait.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/malloc.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdio.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/local/include/stdio.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/stdio.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/stdarg.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/seek_constants.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/new:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/limits:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__undef_macros:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/iterator:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/iosfwd:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/wchar.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/local/include/wchar.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/wchar.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/time.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/time.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/time.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/select.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/signal.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/sigcontext.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/signal_types.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/limits.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/limits.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/limits.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/float.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/lib/clang/7.0.0/include/float.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/limits.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/posix_limits.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/linux/signal.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/signal.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/signal.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/signal-defs.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm/siginfo.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/timespec.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/ucontext.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/sys/user.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/android/legacy_signal_inlines.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/mbstate_t.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/wctype.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__functional_base:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/tuple:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdexcept:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cassert:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/assert.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/atomic:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstdio:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cwchar:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cwctype:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cctype:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/ctype.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/ctype.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/wctype.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/local/include/wctype.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/wctype.h:
+
+/data/data/io.neoterm/files/home/aria2//usr/local/include/zlib.h:
+
+/data/data/io.neoterm/files/home/aria2//usr/local/include/zconf.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/unistd.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/fcntl.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/getopt.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/ioctl.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/lockf.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../sysroot/usr/include/bits/sysconf.h:
+
+a2functional.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/functional:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/chrono:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/ctime:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/ratio:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/climits:
+
+A2STR.h:
+
+fmt.h:
+
+/data/data/io.neoterm/files/home/aria2/toolchain/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/cstdarg:
+
+DlAbortEx.h:
+
+RecoverableException.h:
+
+Exception.h:
+
+error_code.h:
