@@ -1,4 +1,4 @@
-`
+```
 #准备
 #preparation
 apt install git wget perl pkg-config python make automake
@@ -97,4 +97,4 @@ ln -s /data/data/io.neoterm/files/home/aria2/usr/local/lib/libz.a /data/data/io.
 make -j8
 make install
 
-`shell
+```shell
