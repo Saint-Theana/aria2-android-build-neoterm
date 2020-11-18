@@ -1,7 +1,7 @@
 ```shell
 #准备
 #preparation
-apt install git wget perl pkg-config python make automake
+apt install git wget perl pkg-config python make -y
 
 #下载ndk
 #download ndk
