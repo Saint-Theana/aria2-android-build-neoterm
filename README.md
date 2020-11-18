@@ -6,7 +6,7 @@ apt install git wget perl pkg-config python make -y
 #下载ndk
 #download ndk
 cd ~
-git clone https://github.com/SaintcTheana/ndk_for_android
+git clone https://github.com/Saint-Theana/ndk_for_android
 
 
 #创建工作目录
